@@ -4,60 +4,60 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.Characters.FirstPerson;
 
-public class EscPause : MonoBehaviour
+public class TabMenu : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject pauseMenu;
 
     [SerializeField]
     private GameObject fpsCon;
 
-    [SerializeField] 
+    [SerializeField]
     private MouseLook m_MouseLook;
 
-    public static bool isPaused = false;
+    [SerializeField]
+    private GameObject tabMenu;
 
+    public static bool isTab = false;
 
-    // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-             if (isPaused)
+            if (isTab)
             {
-                Resume();
-                
+                Close();
+
             }
-            else 
+            else
             {
-                Pause();
-                
+                Open();
+
             }
         }
 
-        
     }
 
-    public void Pause()
+    public void Open()
     {
+
         Time.timeScale = 0;
         fpsCon.SetActive(false);
-        pauseMenu.SetActive(true);
-        isPaused = true;
+        tabMenu.SetActive(true);
+        isTab = true;
         m_MouseLook.SetCursorLock(false);
         m_MouseLook.UpdateCursorLock();
 
     }
 
-    public void Resume()
+    public void Close()
     {
+
         Time.timeScale = 1;
         fpsCon.SetActive(true);
-        pauseMenu.SetActive(false);
-        isPaused = false;
+        tabMenu.SetActive(false);
+        isTab = false;
         m_MouseLook.SetCursorLock(true);
         m_MouseLook.UpdateCursorLock();
 
     }
+
 }
