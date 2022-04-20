@@ -25,7 +25,6 @@ public class TabMenu : MonoBehaviour
             if (isTab)
             {
                 Close();
-
             }
             else
             {
