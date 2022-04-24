@@ -19,13 +19,28 @@ public class Animation : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, range))
+            if (Input.GetButtonDown("Fire1"))
             {
-                anim.SetTrigger("Lc");
+                if (Physics.Raycast(ray, out hit))
+                {
+                    if (hit.collider.name == "milk") 
+                    anim.SetTrigger("milk");
+                    else if(hit.collider.name == "shaker")
+                    {
+                        anim.SetTrigger("shaker");
+                    }
+                    else if (hit.collider.name == "sphere")
+                    {
+                        anim.SetTrigger("sphere");
+                    }
+                    else if (hit.collider.name == "egggggg")
+                    {
+                        anim.SetTrigger("egggggg");
+                    }
+                }
             }
-
         }
-    }
 
+    }
 }
 
