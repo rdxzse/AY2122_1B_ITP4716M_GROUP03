@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Animation : MonoBehaviour
 {
+    public float range = 999;
+    public float force = 999;
     Animator anim;
 
     void Start()
@@ -13,9 +15,14 @@ public class Animation : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("Fire1"))
         {
-            anim.SetTrigger("Lc");
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, range))
+            {
+                anim.SetTrigger("Lc");
+            }
 
         }
     }
