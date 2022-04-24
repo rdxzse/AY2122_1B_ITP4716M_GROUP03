@@ -1568,7 +1568,7 @@ PrefabInstance:
     - target: {fileID: 405794041091196434, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: cd97426654149e44bb21b095cbbf5ed0, type: 2}
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 4677379222891419799, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
       propertyPath: m_Name
       value: AirFryer
@@ -1632,7 +1632,7 @@ PrefabInstance:
     - target: {fileID: 6623000576451148098, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: cd97426654149e44bb21b095cbbf5ed0, type: 2}
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
 --- !u!4 &437736795 stripped
@@ -5761,6 +5761,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1751144227}
     m_Modifications:
+    - target: {fileID: 5408146683194141718, guid: 0bd166eac535dfd43bc28b43190b289a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 5768377409343704515, guid: 0bd166eac535dfd43bc28b43190b289a, type: 3}
       propertyPath: m_Name
       value: Mixer
@@ -6079,6 +6083,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1751144227}
     m_Modifications:
+    - target: {fileID: 734784583825234095, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 1239201142768515450, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
       propertyPath: m_Name
       value: Coffee Maker
@@ -6139,6 +6147,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4083191782085738514, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
 --- !u!1 &1732394599
