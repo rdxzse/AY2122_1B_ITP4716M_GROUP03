@@ -13,10 +13,4 @@ public class CookieButton : MonoBehaviour
         text = GetComponent<Text>();
         text.text = "You need to make a cookie now.";
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

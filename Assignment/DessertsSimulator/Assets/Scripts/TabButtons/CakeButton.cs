@@ -13,10 +13,4 @@ public class CakeButton : MonoBehaviour
         text = GetComponent<Text>();
         text.text = "You need to make a cake now.";
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
