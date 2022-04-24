@@ -698,6 +698,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1366919836}
     m_Modifications:
+    - target: {fileID: 1342690359368701994, guid: 7b5ec1159cb969d4a8fe69fddc2f17d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 4641702302517013116, guid: 7b5ec1159cb969d4a8fe69fddc2f17d8, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -754,6 +758,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5211393443465996780, guid: 7b5ec1159cb969d4a8fe69fddc2f17d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 5413734714468200646, guid: 7b5ec1159cb969d4a8fe69fddc2f17d8, type: 3}
       propertyPath: m_Name
       value: Fridge
@@ -861,6 +869,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1366919836}
     m_Modifications:
+    - target: {fileID: 405794041091196434, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 4677379222891419799, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
       propertyPath: m_Name
       value: AirFryer
@@ -921,6 +933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6623000576451148098, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
 --- !u!4 &184080591 stripped
@@ -1265,6 +1281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1481542957}
     m_Modifications:
+    - target: {fileID: 5408146683194141718, guid: 0bd166eac535dfd43bc28b43190b289a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 5768377409343704515, guid: 0bd166eac535dfd43bc28b43190b289a, type: 3}
       propertyPath: m_Name
       value: Mixer
@@ -4506,6 +4526,79 @@ RectTransform:
   m_AnchoredPosition: {x: 932, y: -360.00003}
   m_SizeDelta: {x: 1600, y: 1060}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1094592203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cdb720411b8dc8740baef52b41e78a0e, type: 2}
+    - target: {fileID: 919132149155446097, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
+      propertyPath: m_Name
+      value: door
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ae8cfa77ba9bb1f4ea61594b486a3034, type: 3}
 --- !u!1 &1115705806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7301,6 +7394,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1366919836}
     m_Modifications:
+    - target: {fileID: 734784583825234095, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 1239201142768515450, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
       propertyPath: m_Name
       value: Coffee Maker
