@@ -8,23 +8,35 @@ public class Animation : MonoBehaviour
     public float force = 999;
     Animator anim;
 
+    [SerializeField]
+    private Collider milk;
+
+    [SerializeField]
+    private Collider shaker;
+
+    [SerializeField]
+    private Collider sphere;
+
+    [SerializeField]
+    private Collider eggggg;
+
+
+
     void Start()
     {
-        anim = gameObject.GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
+        
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Input.GetButtonDown("Fire1"))
-            {
+            if (Input.GetButtonDown("Fire1")){
                 if (Physics.Raycast(ray, out hit))
                 {
                     if (hit.collider.name == "milk") 
-                    anim.SetTrigger("milk");
+                        anim.SetTrigger("milk");
                     else if(hit.collider.name == "shaker")
                     {
                         anim.SetTrigger("shaker");
@@ -35,12 +47,10 @@ public class Animation : MonoBehaviour
                     }
                     else if (hit.collider.name == "egggggg")
                     {
-                        anim.SetTrigger("egggggg");
+                        anim.SetTrigger("egg");
                     }
                 }
             }
-        }
-
     }
 }
 

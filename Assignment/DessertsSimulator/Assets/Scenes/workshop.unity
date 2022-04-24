@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149569388375}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4ceaa64d6d9d174a9fa0dcf61b9f6d4, type: 3}
   m_Name: 
@@ -3482,6 +3482,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1005758831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005758828}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ceaa64d6d9d174a9fa0dcf61b9f6d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 999
+  force: 999
 --- !u!1 &1010172987
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,7 +5209,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481542954}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4ceaa64d6d9d174a9fa0dcf61b9f6d4, type: 3}
   m_Name: 
@@ -7623,7 +7637,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3046409921505467196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4ceaa64d6d9d174a9fa0dcf61b9f6d4, type: 3}
   m_Name: 
@@ -7767,6 +7781,7 @@ GameObject:
   - component: {fileID: 605522944279152115}
   - component: {fileID: 3321203901528194848}
   - component: {fileID: 3321203901528194849}
+  - component: {fileID: 3321203901528194850}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -7807,6 +7822,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3321203901528194850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3321203901528194847}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ceaa64d6d9d174a9fa0dcf61b9f6d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 999
+  force: 999
 --- !u!33 &3469287837068044872
 MeshFilter:
   m_ObjectHideFlags: 0
