@@ -3067,8 +3067,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: EscPause, Assembly-CSharp
+      - m_Target: {fileID: 152280454}
+        m_TargetAssemblyTypeName: WorkshopEscButton, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
         m_Arguments:
