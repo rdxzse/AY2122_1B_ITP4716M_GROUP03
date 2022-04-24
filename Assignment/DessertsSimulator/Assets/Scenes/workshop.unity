@@ -571,10 +571,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 152280452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f7cb3b1efce29428239d1421aea33b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8af723525f565a34b9869399faff88fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fpsCon: {fileID: 0}
   m_MouseLook:
     XSensitivity: 2
     YSensitivity: 2
@@ -594,11 +593,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 152280452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe651759b7bc6f4ca4dd840eda14138, type: 3}
+  m_Script: {fileID: 11500000, guid: 8117ec1c97d0bc241bb3062015ac44f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 174386987}
-  fpsCon: {fileID: 0}
   m_MouseLook:
     XSensitivity: 2
     YSensitivity: 2
@@ -607,7 +605,7 @@ MonoBehaviour:
     MaximumX: 90
     smooth: 0
     smoothTime: 5
-    lockCursor: 0
+    lockCursor: 1
 --- !u!114 &152280455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2201,7 +2199,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 152280453}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TabMenu, Assembly-CSharp
         m_MethodName: Close
         m_Mode: 1
@@ -3717,7 +3715,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 152280454}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: EscPause, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
