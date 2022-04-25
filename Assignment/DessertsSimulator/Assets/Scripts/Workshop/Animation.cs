@@ -52,6 +52,7 @@ public class Animation : MonoBehaviour
                     {
                         step4 = true;
                     }
+                   
                 }
             //NextStepButton.SetActive(true);
         }
