@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tabPanel: {fileID: 269371980}
-  ButtonText: {fileID: 0}
+  ButtonText: {fileID: 1272579683}
 --- !u!1001 &161425876
 PrefabInstance:
   m_ObjectHideFlags: 0
