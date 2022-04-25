@@ -7,6 +7,9 @@ public class TabButton : MonoBehaviour
     [SerializeField]
     private GameObject tabPanel;
 
+    [SerializeField]
+    private GameObject ButtonText;
+
     public static bool tab = false;
 
     // Start is called before the first frame update
@@ -24,12 +27,13 @@ public class TabButton : MonoBehaviour
             {
                 tab = false;
                 tabPanel.SetActive(false);
+                ButtonText.SetActive(true);
             }
             else
             {
                 tab = true;
                 tabPanel.SetActive(true);
-
+                ButtonText.SetActive(false);
             }
         }
     }
