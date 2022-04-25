@@ -1961,6 +1961,7 @@ GameObject:
   - component: {fileID: 628186290}
   - component: {fileID: 628186289}
   - component: {fileID: 628186288}
+  - component: {fileID: 628186291}
   m_Layer: 0
   m_Name: Camera 2
   m_TagString: Untagged
@@ -2010,7 +2011,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 1
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -2035,6 +2036,23 @@ Transform:
   m_Father: {fileID: 6728270949409209277}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 10.218, y: -179.857, z: 0}
+--- !u!114 &628186291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628186287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8abab37b6208b94186b4c1e28d8217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1481542954}
+  cam2: {fileID: 628186287}
+  cam3: {fileID: 1372538544}
+  cam4: {fileID: 760890475}
+  hitobj: {fileID: 330224209}
 --- !u!1 &678393787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,6 +2398,7 @@ GameObject:
   - component: {fileID: 760890477}
   - component: {fileID: 760890476}
   - component: {fileID: 760890480}
+  - component: {fileID: 760890481}
   m_Layer: 0
   m_Name: Camera 4
   m_TagString: Untagged
@@ -2448,7 +2467,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 3
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -2492,6 +2511,23 @@ MonoBehaviour:
   shaker: {fileID: 0}
   sphere: {fileID: 0}
   eggggg: {fileID: 0}
+--- !u!114 &760890481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760890475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8abab37b6208b94186b4c1e28d8217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1481542954}
+  cam2: {fileID: 628186287}
+  cam3: {fileID: 1372538544}
+  cam4: {fileID: 760890475}
+  hitobj: {fileID: 330224209}
 --- !u!114 &766812612 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6740023369066651699, guid: e40088c5b39f0a240bd65b1005436534, type: 3}
@@ -4930,6 +4966,7 @@ GameObject:
   - component: {fileID: 1372538547}
   - component: {fileID: 1372538546}
   - component: {fileID: 1372538545}
+  - component: {fileID: 1372538548}
   m_Layer: 0
   m_Name: Camera 3
   m_TagString: Untagged
@@ -4979,7 +5016,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 2
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -5004,6 +5041,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 15, y: -180.049, z: 0}
+--- !u!114 &1372538548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372538544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8abab37b6208b94186b4c1e28d8217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1481542954}
+  cam2: {fileID: 628186287}
+  cam3: {fileID: 1372538544}
+  cam4: {fileID: 760890475}
+  hitobj: {fileID: 330224209}
 --- !u!1 &1433583341
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,6 +5478,7 @@ GameObject:
   - component: {fileID: 1481542957}
   - component: {fileID: 1481542956}
   - component: {fileID: 1481542955}
+  - component: {fileID: 1481542958}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5496,6 +5551,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 24.775, y: 0, z: 0}
+--- !u!114 &1481542958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481542954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8abab37b6208b94186b4c1e28d8217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1481542954}
+  cam2: {fileID: 628186287}
+  cam3: {fileID: 1372538544}
+  cam4: {fileID: 760890475}
+  hitobj: {fileID: 330224209}
 --- !u!1001 &1498800835
 PrefabInstance:
   m_ObjectHideFlags: 0
