@@ -9,7 +9,8 @@ public class WorkshopEscButton : MonoBehaviour
     [SerializeField]
     private GameObject pauseMenu;
 
-  
+    [SerializeField]
+    private GameObject ButtonText;
 
     public static bool isPaused = false;
 
@@ -40,8 +41,7 @@ public class WorkshopEscButton : MonoBehaviour
         Time.timeScale = 0;
         pauseMenu.SetActive(true);
         isPaused = true;
-      
-
+        ButtonText.SetActive(false);
     }
 
     public void Resume()
@@ -49,7 +49,6 @@ public class WorkshopEscButton : MonoBehaviour
         Time.timeScale = 1;
         pauseMenu.SetActive(false);
         isPaused = false;
-        
-
+        ButtonText.SetActive(true);
     }
 }

@@ -6,11 +6,12 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class WorkshopTabButton : MonoBehaviour
 {
-    [SerializeField]
-    private MouseLook m_MouseLook;
 
     [SerializeField]
-    private GameObject tabMenu;
+    private GameObject tabPanel;
+
+    [SerializeField]
+    private GameObject ButtonText;
 
     public static bool isTab = false;
 
@@ -35,22 +36,18 @@ public class WorkshopTabButton : MonoBehaviour
     {
 
         Time.timeScale = 0;
-        tabMenu.SetActive(true);
+        tabPanel.SetActive(true);
         isTab = true;
-        m_MouseLook.SetCursorLock(false);
-        m_MouseLook.UpdateCursorLock();
-
+        ButtonText.SetActive(false);
     }
 
     public void Close()
     {
 
         Time.timeScale = 1;
-        tabMenu.SetActive(false);
+        tabPanel.SetActive(false);
         isTab = false;
-        m_MouseLook.SetCursorLock(true);
-        m_MouseLook.UpdateCursorLock();
-
+        ButtonText.SetActive(true);
     }
 
 }
