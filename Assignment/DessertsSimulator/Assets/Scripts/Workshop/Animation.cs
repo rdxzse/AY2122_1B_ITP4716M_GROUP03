@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Animation : MonoBehaviour
 {
-    public float range = 999;
-    public float force = 999;
-    Animator anim;
+    public bool step1, step2, step3, step4;
 
     [SerializeField]
     private Collider milk;
@@ -24,33 +22,40 @@ public class Animation : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        
     }
 
     void Update()
     {
-        
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Input.GetButtonDown("Fire1")){
-                if (Physics.Raycast(ray, out hit))
+        if (!(step1 && step2 && step3 && step4) )
+        { 
+            
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Input.GetButtonDown("Fire1"))
                 {
-                    if (hit.collider.name == "milk") 
-                        anim.SetTrigger("milk");
-                    else if(hit.collider.name == "shaker")
+                    if (Physics.Raycast(ray, out hit))
                     {
-                        anim.SetTrigger("shaker");
+                        if (hit.collider.name == "milk") {
+                            step1 = true; 
+                        }
                     }
-                    else if (hit.collider.name == "sphere")
+                        else if (hit.collider.name == "shaker")
+                        {
+                            step2 = true;
+                       }
+                     else if (hit.collider.name == "sphere")
                     {
-                        anim.SetTrigger("sphere");
+                        step3 = true;
                     }
                     else if (hit.collider.name == "egggggg")
                     {
-                        anim.SetTrigger("egg");
+                        step4 = true;
                     }
                 }
-            }
+            //NextStepButton.SetActive(true);
+        }
+        
     }
 }
 
