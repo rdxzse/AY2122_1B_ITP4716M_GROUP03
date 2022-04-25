@@ -9,8 +9,7 @@ public class WorkshopEscButton : MonoBehaviour
     [SerializeField]
     private GameObject pauseMenu;
 
-    [SerializeField]
-    private MouseLook m_MouseLook;
+  
 
     public static bool isPaused = false;
 
@@ -41,8 +40,7 @@ public class WorkshopEscButton : MonoBehaviour
         Time.timeScale = 0;
         pauseMenu.SetActive(true);
         isPaused = true;
-        m_MouseLook.SetCursorLock(false);
-        m_MouseLook.UpdateCursorLock();
+      
 
     }
 
@@ -51,8 +49,7 @@ public class WorkshopEscButton : MonoBehaviour
         Time.timeScale = 1;
         pauseMenu.SetActive(false);
         isPaused = false;
-        m_MouseLook.SetCursorLock(true);
-        m_MouseLook.UpdateCursorLock();
+        
 
     }
 }
